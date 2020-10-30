@@ -1,0 +1,17 @@
+.select {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+
+  background: #e0e0e0;
+  color: #141414;
+}

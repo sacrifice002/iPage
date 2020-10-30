@@ -1,0 +1,18 @@
+@import "~src/style/common";
+
+.container {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  //padding: 0 20px;
+
+  .layerItem {
+
+    &:hover {
+      color: #F6F6F6;
+      background: #1E90FF;
+    }
+  }
+}
+

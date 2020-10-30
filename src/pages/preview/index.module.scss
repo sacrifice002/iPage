@@ -1,0 +1,41 @@
+.preview {
+  .select {
+    position: relative;
+    width: 100%;
+    //height: 100%;
+    line-height: 1;
+    //background: $editorBackgroundColor_level_1;
+    background-color: #262626;
+    border-bottom: 1px solid #1c1c1c;
+    color: rgba(255, 255, 255, 0.65);
+    //vertical-align: middle;
+
+    .content {
+      width: 200px;
+      display: block;
+      position: relative;
+      margin: 0 auto;
+
+      .localeSwitch {
+        display: inline-block;
+      }
+
+      .deviceSwitch {
+        display: inline-block;
+
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .pageView {
+    position: relative;
+    margin: 0 auto;
+
+    .renderComponent {
+      display: block;
+      position: absolute;
+    }
+  }
+}
+

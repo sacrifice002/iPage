@@ -1,0 +1,6 @@
+package-lock.json
+.idea
+/node_modules
+/dist
+/za-static-cdn
+/build

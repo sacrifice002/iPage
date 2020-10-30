@@ -1,0 +1,28 @@
+@import "~src/style/common";
+
+
+
+.header {
+  display: block;
+  position: relative;
+  //background: $editorBackgroundColor_level_1;
+  //color: rgba(255, 255, 255, 0.65);
+  //vertical-align: middle;
+  height: 60px;
+}
+
+
+.container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+
+  .moduleItem {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    vertical-align: top;
+  }
+}
+

@@ -1,0 +1,15 @@
+@import "~src/style/common";
+
+
+.property {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  width: $propertyWidth;
+  height: 100%;
+  overflow-y: scroll;
+  //padding: 5px;
+  opacity: 1;
+  background: #ffffff;
+}
+

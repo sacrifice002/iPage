@@ -1,0 +1,68 @@
+@import "~src/style/common";
+
+.container {
+  position: relative;
+  height: 100%;
+  line-height: 1;
+  //background: $editorBackgroundColor_level_1;
+  background-color: #262626;
+  color: #fff;
+  border-bottom: 1px solid #1c1c1c;
+  color: rgba(255, 255, 255, 0.65);
+  vertical-align: middle;
+
+  -webkit-transition: .4s cubic-bezier(.19, 1, .22, 1);
+  transition: .4s cubic-bezier(.19, 1, .22, 1);
+
+  .contentLeft {
+    width: 240px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    //justify-content: center;
+    overflow: hidden;
+
+    .logo {
+      position: relative;
+      margin-left: 25px;
+      height: 20px;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      span {
+        margin-left: 10px;
+        vertical-align: bottom;
+      }
+
+    }
+  }
+
+  .contentRight {
+    position: absolute;
+    display: inline-flex;
+    width: auto;
+    height: 100%;
+    right: 0px;
+    align-items: center;
+    padding-right: 40px;
+
+    .localeSwitch {
+
+    }
+
+    .deviceSwitch {
+      margin-left: 20px;
+    }
+    .actions {
+      margin-left: 20px;
+
+      button {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
