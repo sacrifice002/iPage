@@ -7,6 +7,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "server": "node server/index.js",
+    "server:dev": "nodemon server/index.js",
     "test": "node scripts/test.js",
     "sit": "cross-env BUILD_ENV=sit node scripts/build.js && cross-env BUILD_ENV=sit gulp",
     "product": "cross-env BUILD_ENV=prd node scripts/build.js && cross-env BUILD_ENV=prd gulp"
@@ -35,6 +36,7 @@
     "mobx-react": "^6.2.2",
     "moment": "^2.28.0",
     "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
     "postcss-safe-parser": "^4.0.2",
     "qrcode.react": "^1.0.0",
     "react": "^16.8.6",
