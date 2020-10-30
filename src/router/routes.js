@@ -3,6 +3,7 @@ import Layout from '../pages/layout/main'
 import LazyHOC from '../components/common/lazyHOC'
 import Home from '../pages/home'
 import Edit from '../pages/edit'
+import Manager from '../pages/manager'
 import DataView from '../pages/dataView'
 import Preview from '../pages/preview'
 import NotFound from '../pages/common/404'
@@ -30,6 +31,10 @@ const routes = [
     path: '/data',
     exact: true,
     component: DataView
+  }, {
+    path: '/manager',
+    exact: true,
+    component: Manager
   }, {
     path: '/pre',
     exact: true,

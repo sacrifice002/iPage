@@ -1,0 +1,32 @@
+.managerHeaderContainer{
+  width: 100%;
+  height:60px;
+  background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  .left{
+    .title{
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 16px;
+      margin-right: 20px;;
+    }
+    line-height: 60px;
+    :global{
+      .ant-btn{
+        color: rgba(255, 255, 255, 0.65);
+        background:none;
+        font-size: 14px;
+        border: 1px dashed rgba(255,255,255, .4);
+        margin-left: 20px;
+      }
+    }
+  }
+  .right{
+    line-height: 60px;
+    .avater{
+      width:40px;
+      height:40px;
+    }
+  }
+}
